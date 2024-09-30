@@ -1,0 +1,29 @@
+{
+  "employees": [
+    {
+      "name": "Tiger Nixon",
+      "salary": "120000",
+      "id": "1"
+    },
+    {
+      "name": "Shiju Abraham",
+      "salary": "120000",
+      "id": "2"
+    },
+    {
+      "name": "Maneesh John",
+      "salary": "78000",
+      "id": "3"
+    },
+    {
+      "name": "Kavitha Abraham",
+      "salary": "45200",
+      "id": "4"
+    },
+    {
+      "id": "52",
+      "name": "Anila Thomas",
+      "salary": "15000"
+    }
+  ]
+}

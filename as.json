@@ -1,0 +1,34 @@
+{
+  "employees": [
+    {
+      "name": "Anil David",
+      "salary": "752000",
+      "id": "1"
+    },
+    {
+      "name": "Sunil David",
+      "salary": "120000",
+      "id": "2"
+    },
+    {
+      "name": "Maneesh John",
+      "salary": "78000",
+      "id": "3"
+    },
+    {
+      "name": "Kavitha Abraham",
+      "salary": "45200",
+      "id": "4"
+    },
+    {
+      "id": "52",
+      "name": "Shiju",
+      "salary": "15000"
+    },
+    {
+      "id": "15",
+      "name": "Rakesh",
+      "salary": "7000"
+    }
+  ]
+}
