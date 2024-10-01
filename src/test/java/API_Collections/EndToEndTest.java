@@ -1,5 +1,4 @@
 package API_Collections;
-
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -7,13 +6,14 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.HashMap;
 import java.util.List;
 
 public class EndToEndTest {
     callURI CURL = new callURI();
-    JsonPath jsPath;String emp_id;
+    JsonPath jsPath;
+    String emp_id;
+
     @Test
     public void TC01_GetAllEmployee() {
         CURL.baseURI("http://localhost:3000/employees");
@@ -50,7 +50,7 @@ public class EndToEndTest {
         TTC04_DeleteEmployee();
     }
     void TTC04_DeleteEmployee() {
-        CURL.baseURI("http://localhost:3000/employees");
+        CURL.baseURI("http://localhost:3000/employees/");
         CURL.response = CURL.request.delete(emp_id);
         Assert.assertEquals(CURL.response.statusCode(), 200);
         System.out.println("========= Successfully! deleted the record" + ", The response code is   " + CURL.response.statusCode());
