@@ -24,6 +24,11 @@
       "id": "52",
       "name": "Anila Thomas",
       "salary": "15000"
+    },
+    {
+      "id": 23,
+      "name": "morpheus",
+      "job": "leader"
     }
   ]
 }
